@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19434" started-at="2018-07-24T04:18:40Z" finished-at="2018-07-24T04:19:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19434" started-at="2018-07-24T04:18:40Z" finished-at="2018-07-24T04:19:00Z">
+      <class name="com.dominos.testcases.FindPizzas">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.dominos.testcases.FindPizzas@26be92ad]" name="beforeTest" is-config="true" duration-ms="13423" started-at="2018-07-24T04:18:40Z" finished-at="2018-07-24T04:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="findPizzas()[pri:0, instance:com.dominos.testcases.FindPizzas@26be92ad]" name="findPizzas" duration-ms="5334" started-at="2018-07-24T04:18:54Z" finished-at="2018-07-24T04:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPizzas -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.dominos.testcases.FindPizzas@26be92ad]" name="afterTest" is-config="true" duration-ms="609" started-at="2018-07-24T04:18:59Z" finished-at="2018-07-24T04:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.dominos.testcases.FindPizzas -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
