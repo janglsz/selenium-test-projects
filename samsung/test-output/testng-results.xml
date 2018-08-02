@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21077" started-at="2018-07-24T03:24:00Z" finished-at="2018-07-24T03:24:22Z">
+  <suite name="Default suite" duration-ms="29803" started-at="2018-08-02T00:52:22Z" finished-at="2018-08-02T00:52:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21077" started-at="2018-07-24T03:24:00Z" finished-at="2018-07-24T03:24:22Z">
+    <test name="Default test" duration-ms="29803" started-at="2018-08-02T00:52:22Z" finished-at="2018-08-02T00:52:51Z">
       <class name="com.samsung.account.testcases.VerifyPasswordMismatchError">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.samsung.account.testcases.VerifyPasswordMismatchError@26be92ad]" name="beforeTest" is-config="true" duration-ms="8256" started-at="2018-07-24T03:24:00Z" finished-at="2018-07-24T03:24:09Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.samsung.account.testcases.VerifyPasswordMismatchError@26be92ad]" name="beforeTest" is-config="true" duration-ms="10924" started-at="2018-08-02T00:52:22Z" finished-at="2018-08-02T00:52:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="VerifyErrorMessageAppears()[pri:0, instance:com.samsung.account.testcases.VerifyPasswordMismatchError@26be92ad]" name="VerifyErrorMessageAppears" duration-ms="12408" started-at="2018-07-24T03:24:09Z" finished-at="2018-07-24T03:24:21Z">
+        <test-method status="PASS" signature="VerifyErrorMessageAppears()[pri:0, instance:com.samsung.account.testcases.VerifyPasswordMismatchError@26be92ad]" name="VerifyErrorMessageAppears" duration-ms="18313" started-at="2018-08-02T00:52:33Z" finished-at="2018-08-02T00:52:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyErrorMessageAppears -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.samsung.account.testcases.VerifyPasswordMismatchError@26be92ad]" name="afterTest" is-config="true" duration-ms="386" started-at="2018-07-24T03:24:21Z" finished-at="2018-07-24T03:24:22Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.samsung.account.testcases.VerifyPasswordMismatchError@26be92ad]" name="afterTest" is-config="true" duration-ms="502" started-at="2018-08-02T00:52:51Z" finished-at="2018-08-02T00:52:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

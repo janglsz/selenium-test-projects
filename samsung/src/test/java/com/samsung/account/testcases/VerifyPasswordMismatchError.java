@@ -49,7 +49,7 @@ public class VerifyPasswordMismatchError {
 		driver.get(baseURL);
 		
 		// Get the Excel File with the user account information
-		ReadExcel excelFile = new ReadExcel("C:\\Users\\Admin\\eclipse-workspace\\samsung\\src\\test\\resources\\Test_Data.xlsx", "Sheet1" );
+		ReadExcel excelFile = new ReadExcel("src\\test\\resources\\Test_Data.xlsx", "Sheet1" );
 		
 		email = excelFile.getStringData(1, 0);
 		correctPassword = excelFile.getStringData(1, 1);
