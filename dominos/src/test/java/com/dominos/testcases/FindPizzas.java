@@ -5,6 +5,8 @@ import com.dominos.pages.MenuPage;
 import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 
@@ -31,15 +33,15 @@ public class FindPizzas {
 	
 	@BeforeTest
 	public void beforeTest() {
-		
-		// Set the baseURL
-		baseURL = "https://www.dominos.com.au/menu";
-		
+				
 		// Launch Firefox
 		driver = new FirefoxDriver();
 		
 		// Set the WebDriver wait time
 		wait = new WebDriverWait(driver, WAIT_TIME);
+		
+		// Set the baseURL
+		baseURL = "https://www.dominos.com.au/menu";
 		
 		// Launch the web page
 		driver.get(baseURL);

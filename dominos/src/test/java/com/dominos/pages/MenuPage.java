@@ -60,7 +60,7 @@ public class MenuPage {
 		actualString = driver.findElement(hawaiiankJText).getText();
 		
 		// Print the extracted text to the console
-		System.out.println("Extracted KJ Value is: " + actualString);
+		System.out.println("Extracted HAWAIIAN Pizza KJ Value is: " + actualString);
 		
 		// If the actual text does not match the expected text, throw an assertion error
 		Assert.assertEquals(actualString, expectedkJValue);
@@ -102,7 +102,7 @@ public class MenuPage {
 		actualString = driver.findElement(hamAndCheeseText).getText();
 		
 		// Print the extracted text to the console
-		System.out.println("Extracted Text: " + actualString);
+		System.out.println("Extracted Pizza Name: " + actualString);
 		
 		// If the actual text does not match the expected text, throw an assertion error
 		Assert.assertEquals(actualString, expectedValue);
